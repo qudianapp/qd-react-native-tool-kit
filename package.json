@@ -1,0 +1,26 @@
+{
+  "name": "@qudian_mobile/qd-react-native-tool-kit",
+  "version": "0.1.0",
+  "description": "useful tools for native abilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudianapp/qd-react-native-tool-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "tools",
+    "download",
+    "helper",
+    "device"
+  ],
+  "author": "Phoobobo phoobobo@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qudianapp/qd-react-native-tool-kit/issues"
+  },
+  "homepage": "https://github.com/qudianapp/qd-react-native-tool-kit#readme"
+}
