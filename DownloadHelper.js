@@ -1,9 +1,14 @@
 import { NativeModules } from 'react-native';
 
-function download() {
-    
+const DownloadHelper = NativeModules.QDDownloadManager;
+
+function download(url) {
+    if (!DownloadHelper) {
+        return;
+    }
+    DownloadHelper.download(url);
 }
 
 export default {
-    download: NativeModules.download,
+    download,
 }
