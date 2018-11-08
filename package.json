@@ -1,6 +1,6 @@
 {
   "name": "@qudian_mobile/qd-react-native-tool-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "useful tools for native abilities",
   "main": "index.js",
   "scripts": {
