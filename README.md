@@ -24,9 +24,28 @@ useful tools for native ability
 4. copy your app/res/mipmap folder to qd-react-native-tool-kit/res/
 
 ## Usage
+### DownloadHelper
 ```javascript
 import { DownloadHelper } from '@qudian_mobile/qd-react-native-tool-kit';
 
 DownloadHelper.download(url);
 ```
+### Dimensions
+```javascript
+import { StyleSheet } from 'react-native';
+import { Dimensions } from '@qudian_mobile/qd-react-native-tool-kit';
+const { W, PIXEL, SCREEN_HEIGHT, SCREEN_WIDTH } = Dimensions;
+
+const styles = StyleSheet.create({
+    test: {
+        width: W(28),
+        height: W(32),
+    },
+    test1: {
+        width: SCREEN_WIDTH,
+        height: PIXEL,
+    }
+})
+```
+
 

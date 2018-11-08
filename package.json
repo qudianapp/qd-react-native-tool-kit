@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/qudianapp/qd-react-native-tool-kit.git"
   },
+  "dependencies": {
+    "react-native-iphone-x-helper": "^1.1.0"
+  },
   "keywords": [
     "react-native",
     "tools",
